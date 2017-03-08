@@ -1,0 +1,53 @@
+html
+{
+  height: 100%;
+}
+
+
+body
+{
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial',serif;
+}
+
+header
+{
+  text-align: center;
+  background-image: url(pomme.jpg);
+  background-position: center;
+
+}
+
+.logo
+{
+  border-style: solid;
+  border-color: green;
+}
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0.5em;
+  overflow: hidden;
+  background-color: green;
+}
+
+
+li
+{
+  float: left;
+  text-align: left;
+  margin-left: 12.5em;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover
+{
+  color:red;
+}
