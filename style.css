@@ -62,7 +62,9 @@ a:hover
   border-color: green;
   margin-top: 100px;
   margin-bottom: 400px;
+  margin-left: 20px;
   padding: 10px 20px;
+  min-height: 500px;
   float: left;
 }
 
@@ -76,4 +78,25 @@ max-width: 280px;
 {
   width: 1000px;
   margin: 0 auto;
+
+}
+
+h2
+{
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  padding: 10px 0;
+  margin: 0 -6px;
+}
+.mac img
+{
+  max-width: 180px;
+  margin: 15px 0 0 0;
+
+}
+#squad
+{
+  max-width: 300px;
+  margin: 15px 0 0 0 ;
 }
