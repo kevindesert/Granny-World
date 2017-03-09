@@ -11,6 +11,7 @@ body
   margin: 0;
   padding: 0;
   font-family: 'Arial',serif;
+
 }
 
 /*Header and Nav bar style*/
@@ -34,7 +35,7 @@ ul
   margin: 0;
   padding-top: 0.5em;
   overflow: hidden;
-  background-color: green;
+  background-color: #FF6600;
 }
 
 
@@ -54,6 +55,8 @@ a:hover
 }
 /*End of styling Header and NavBar*/
 
+/*INDEX PAGES*/
+
 h1
 {
   text-align: center;
@@ -64,7 +67,7 @@ h1
 {
   width: 300px;
   border-style: solid;
-  border-color: green;
+  border-color: #33CC66;
   border-radius: 10px;
   margin-top: 30px;
   margin-bottom: 400px;
@@ -72,7 +75,9 @@ h1
   padding: 10px 20px;
   margin-right: 10px;
   min-height: 500px;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 3px 2px 5px 4px grey;
 }
 
 .mac p
@@ -83,7 +88,7 @@ max-width: 280px;
 
 .macproduit
 {
-  width: 1700px;
+  width: 100%;
   margin: 0 auto;
 
 }
@@ -92,7 +97,7 @@ h2
 {
   font-size: 16px;
   color: white;
-  background-color: green;
+  background-color: #33CC66;
   border-radius: 10px;
   padding: 10px 0;
   margin: 0 -6px;
@@ -107,4 +112,37 @@ h2
 {
   max-width: 320px;
   margin: 15px 0 0 0 ;
+}
+
+/*Footer*/
+footer
+{
+  width: 100%;
+  position: top: 0; right: 0; bottom: 0; left: 0;
+}
+
+
+
+
+
+
+/*END INDEX PAGES*/
+
+
+
+
+/*PRODUCT PAGES*/
+.three img
+{
+  margin-left: 18em;
+  border-style: solid;
+  border-radius: 10px;
+  color: green;
+  margin-top: 100px;
+}
+.three p
+{
+text-align: center;
+margin-left: 200px;
+margin-right: 210px;
 }
